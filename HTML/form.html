@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+        <form>
+            <label for="fname">Please Enter Your First Name:</label>
+            <input type="text" id="fname" /><br/>
+            <label for="lname">Please Enter Your Last Name:</label>
+            <input type="text" id="lname" /><br/>
+            <label for="email">Please Enter Your Email:</label>
+            <input type="email" id="email" /><br/>
+            <label for="phone">Please Enter Your Phone Number:</label>
+            <input type="tel" id="phone" /><br/>
+            <label for="message">Please Enter Your Message:</label>
+            <textarea rows="5" cols="10" id="message"></textarea><br/>
+            <input type="submit" value="Submit" />
+        </form>
+        
+        <form enctype ="multipart/form-data"
+        action="upload.php" method="post">
+            <label for="file">Please Select a File:</label>
+            <input type="file" id="file" name="file" />
+        </form>
+        
+        <form>
+            <label for="car">Please Select Your Dream Car:
+            <select>
+                <option value="volvo" name ="car">Volvo</option>
+                <option value="saab" name = "car">Saab</option>
+                <option value="bmw" name = "car">BMW</option>
+                <option value="ferrari" name = "car">Ferrari</option>
+            </select>
+        </label>
+        </form>
+
+        <form>
+            <input type="radio" id="male" name="gender" value="male"/>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female"/>
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other"/>
+            <label for="other">Others</label>
+        </form>
+
+        <form>
+            <input type="checkbox" id="java" name="java"/>
+            <label for="java">Java</label>
+            <input type="checkbox" id="python" name="python"/>
+            <label for="python">Python</label>
+        </form>
+    </body>
+</html>

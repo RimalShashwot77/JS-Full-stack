@@ -1,0 +1,111 @@
+#para1 {
+    color: cadetblue;
+    text-align: right;
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 30px;
+    text-indent: 50px;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+/* Unvistied link*/
+a:link {
+    color: blue;
+}
+
+/*Visited link*/
+a:visited{
+    color: green;
+}
+
+/* Mouse Over Link */
+a:hover{
+    color: black;
+}
+
+/* Selected Link */
+a:active{
+    color: navajowhite;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    /*normal oblique*/
+    font-weight: bold;
+    /*norma; bolder 100 200 ... 900*/
+    font-variant: small-caps;
+    /*normal*/
+    font-size: 16px;
+}
+
+h1,
+p,
+span,
+a{
+    border: 1px solid blue;
+}
+
+
+.demo {
+    display: none;
+    visibility: hidden;
+}
+
+
+/* .main-div {
+    width: 600px;
+    height: 200px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+} */
+
+/* .div1 {
+    background-color: aqua;
+    width: 600px;
+    height: 200px;
+    position: relative;
+} */
+
+
+
+.div1 {
+    background-color: red;
+    width: max-content;
+    height: max-content;
+    position: relative;
+}
+
+
+.div{
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+
+h1 {
+    background-color: turquoise;
+    color:chartreuse;
+    position: -webkit-sticky;
+    /*safari and browser that does not support sticky position */
+    position: sticky;
+    top:0;
+}
+
+.div-3{
+    width: 900px;
+    height: auto;
+}
+
+@media screen and (max-width:1024px) {
+    
+}

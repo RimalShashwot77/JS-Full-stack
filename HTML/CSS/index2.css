@@ -1,0 +1,95 @@
+/* Universal Selector 
+*{ 
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 20px;
+    color: red;
+    text-align: center;
+}
+    */
+
+
+h2{
+    color: blue;
+}
+
+/* Unvisited link */
+a:link{
+    color:violet ;
+}
+
+/* Visited Link */
+a:visited{
+    color: blanchedalmond;
+}
+
+/* Mouse over link */
+a:hover{
+    color: aliceblue;
+}
+
+/* Selected Link */
+a:active{
+    color: azure;
+}
+
+p::first-letter{
+    text-transform: uppercase;
+}
+
+p::first-line{
+    font-size: 16px;
+}
+
+h1::before{
+    content: url("image.png");
+}
+
+h1::after{
+    content: "This is after content";
+}
+
+::selection{
+    color: brown;
+    background-color:cadetblue;
+}
+
+::marker{
+    color:chartreuse ;
+}
+
+
+    /* Grouping selector */
+
+
+    /* Descendant Selector 
+
+.main-div h1 {
+    background-color: orange;
+    color: white;
+}
+
+*/
+
+    /* Child Selector 
+
+.main-div > h1 {
+    background-color: bisque;
+    color: white;
+}
+    */
+
+
+/* Adjacent (Sibling) Selector 
+h1 + h2 {
+    background-color: saddlebrown;
+    color: black;
+}
+
+*/
+
+/* General Sibling Selector */
+
+h1 ~ h2 {
+    background-color: lightblue;
+    color: chocolate;
+}

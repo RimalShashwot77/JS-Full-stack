@@ -1,0 +1,25 @@
+p {
+    border-style: solid;
+    border-color: yellowgreen;
+    border-width: 5px;
+}
+h2{
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/ama-dablam-mountain-peak-view-from-chola-pass-royalty-free-image-1623254695.jpg");
+    background-repeat:no-repeat ;
+    background-position: right top;
+    background-attachment: scroll;
+}
+
+/* .main-div{
+    color: cadetblue;
+    width: auto;
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/ama-dablam-mountain-peak-view-from-chola-pass-royalty-free-image-1623254695.jpg");
+    background-attachment: fixed;
+    background-size: auto;
+} */
+
+.main-div{
+    color: blanchedalmond;
+    width: 500px;
+    border: 1px solid rosybrown;
+}

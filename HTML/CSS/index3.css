@@ -1,0 +1,23 @@
+/* Child Selector 
+.main-div > h1 {
+    background-color: bisque;
+    color: white;
+}
+
+/ Adjacent (Sibling) Selector 
+h1 + h2 {
+    background-color: saddlebrown;
+    color: black;
+}
+
+/ General Sibling Selector /
+
+/ h1 ~ h2 {
+    background-color: lightblue;
+    color: chocolate;
+} */
+
+h1 ~ h2{
+    background-color: blue;
+    text-align: center;
+}
