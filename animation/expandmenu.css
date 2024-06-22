@@ -1,0 +1,26 @@
+.accordion-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.accordion-button:hover {
+    background-color: #2980b9;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.accordion-content p {
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(56, 92, 114)
+}
