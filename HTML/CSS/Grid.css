@@ -1,0 +1,67 @@
+body{
+    background-color:rgb(255, 255, 255);
+}
+/* .grid{
+    background-color: beige;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    grid-template-columns: 2fr;
+} */
+
+.grid-container{
+    background-color: black;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    display: grid;
+    gap: 40px;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.sidebar{
+    background-color: rgb(15, 57, 91);
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    grid-template-columns: 2fr;
+}
+
+.header{
+    background-color: rgb(15, 180, 40);
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    grid-template-columns: 2fr;
+}
+
+.section{
+    background-color: rgb(4, 0, 255);
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    grid-template-columns: auto 2fr auto;
+    grid-column: 1 / 3;
+}
+
+.content{
+    background-color: rgb(228, 20, 20);
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    grid-template-columns: 2fr;
+}
+
+.footer{
+    background-color: rgb(191, 0, 249);
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    grid-template-columns: 2fr;
+}

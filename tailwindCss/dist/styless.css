@@ -1,0 +1,37 @@
+/* Custom styles for the Login page */
+
+/* Ensure the mobile menu is properly hidden by default */
+#mobile-menu.hidden {
+    display: none;
+}
+
+/* Additional padding for the footer */
+footer {
+    padding: 1rem 0;
+    padding: -50px;
+}
+
+/* Custom styles for the form input focus state */
+input:focus {
+    outline: none;
+    border-color: #3b82f6; /* Tailwind's blue-500 color */
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); /* Blue focus ring */
+}
+
+/* Hover effect for the login button */
+button:hover {
+    background-color: #2563eb; /* Tailwind's blue-700 color */
+}
+
+/* Responsive typography */
+h2 {
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem; /* 36px */
+}
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: 2.25rem; /* 36px */
+        line-height: 2.5rem; /* 40px */
+    }
+}
