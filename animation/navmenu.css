@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
 }
@@ -42,3 +43,49 @@ body {
 .nav-menu.show {
     transform: translateX(250px);
 }
+=======
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu-toggle {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+}
+
+.nav-menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu ul li {
+    padding: 15px;
+    border-bottom: 1px solid #444;
+}
+
+.nav-menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-menu.show {
+    transform: translateX(250px);
+}
+>>>>>>> 1e8c9a737fe1c3e13c78351b186e357290bbb0cc

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,3 +36,42 @@
     </script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="eventhandler.js"></script>
+</head>
+<body>
+    <h2>JavaScript HTML Events</h2>
+    <p>Click the button to display the date and change color</p>
+    
+    <!-- time display -->
+    <button id="displayDateButton">The time is?</button>
+    
+    <p id="demo"></p>
+    
+    <script>
+        function displayDate() {
+            document.getElementById("demo").innerHTML = Date();
+        }
+ 
+        // Selecting elements
+        const buttonElement = document.getElementById('displayDateButton');
+        const paragraphElement = document.getElementById('demo');
+
+        // Adding event listener
+        buttonElement.addEventListener('click', function() {
+            console.log('Button Clicked');
+            displayDate();
+            buttonElement.style.color = 'blue';
+            paragraphElement.style.color = 'red';
+            paragraphElement.style.fontSize = '20px';
+        });
+    </script>
+</body>
+</html>
+>>>>>>> 1e8c9a737fe1c3e13c78351b186e357290bbb0cc

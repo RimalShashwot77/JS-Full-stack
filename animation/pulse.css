@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .pulsating-circle {
     width: 100px;
     height: 100px;
@@ -17,3 +18,24 @@
         transform: scale(1);
     }
 }
+=======
+.pulsating-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c;
+    border-radius: 50%;
+    animation: pulsate 1.5s infinite;
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+>>>>>>> 1e8c9a737fe1c3e13c78351b186e357290bbb0cc

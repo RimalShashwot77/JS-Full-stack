@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .marquee {
     white-space: nowrap;
     overflow: hidden;
@@ -18,3 +19,25 @@
         transform: translateX(-100%);
     }
 }
+=======
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+>>>>>>> 1e8c9a737fe1c3e13c78351b186e357290bbb0cc

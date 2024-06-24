@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .progress-container {
     width: 100%;
     background-color: #e0e0e0;
@@ -11,3 +12,18 @@
     width: 0;
     transition: width 1s ease-in-out;
 }
+=======
+.progress-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #3498db;
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+>>>>>>> 1e8c9a737fe1c3e13c78351b186e357290bbb0cc
